@@ -8,6 +8,7 @@
     --brand-background-main: #E5E5E5;
     --brand-background-team: #F5F4FA;
     --brand-header-border: #ECECEC;
+    --brand-icons-grey: #AFB1B8;
 
 }
 
@@ -289,6 +290,11 @@ color: var(--brand-color-blue);;
         /* padding-bottom: 30px; */
 }
 
+.customers-section{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
 
 
 .footer{
