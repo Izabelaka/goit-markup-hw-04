@@ -87,7 +87,17 @@ padding-top: 24px;
 align-items: center;
 gap: 50px;
 margin-left: auto;
+}
 
+
+.contact-icon{ margin-right: 10px;
+}
+
+.contact-icon:hover{
+    fill:var(--brand-color-blue);
+}
+.cotact-icon:focus:{
+    fill:var(--brand-color-blue);
 }
 .header-nav-list{
     margin-left: 93px;
@@ -308,9 +318,10 @@ margin-top: 16px;
     width:20px;
     height: 20px;
     margin: 10px;
-    fill:#afb1b8
+    fill: var(--brand-icons-grey);
     /* margin-top: 16px; */
 }
+
 .team-icon:hover {
     fill: var(--brand-color-white);
     background-color: var(--brand-color-blue);
@@ -322,7 +333,8 @@ margin-top: 16px;
     gap: 30px;
     list-style: none;
     align-items: center;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    cursor: pointer;
     /* justify-content: center; */
 }
 
@@ -337,15 +349,17 @@ margin-top: 16px;
     padding: 16px 32px;
     border: 1px solid var(--brand-icons-grey);
     border-radius: 4px;
+    fill: var(--brand-icons-grey);
+    
    
 }
 
 .clients:hover{
-    /* fill: var(--brand-color-blue); */
+    fill: var(--brand-color-blue);
     border: 1px solid var(--brand-color-blue);
 }
 .clients:focus{
-    /* fill: var(--brand-color-blue); */
+    fill: var(--brand-color-blue);
     border: 1px solid var(--brand-color-blue);
 }
 
