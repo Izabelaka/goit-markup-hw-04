@@ -228,6 +228,7 @@ color: var(--brand-color-blue);;
     font-size: 14px;
     font-weight: 500;
 }
+
 .menu-contact-link:hover{
     color: var(--brand-color-blue);
     }
@@ -239,7 +240,7 @@ color: var(--brand-color-blue);;
 
 .header-one-structure{
     text-align: center;
-    background-color: var(--brand-background-dark);
+    /* background-color: var(--brand-background-dark); */
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
     padding: 200px 0;
     
