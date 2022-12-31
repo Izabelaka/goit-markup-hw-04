@@ -92,6 +92,7 @@ margin-left: auto;
 
 
 .contact-icon{ margin-right: 10px;
+    fill: currentColor;
 }
 
 .contact-icon:hover{
@@ -230,15 +231,18 @@ color: var(--brand-color-blue);;
     font-weight: 500;
      display: flex;
   align-items: center;
+fill: var(--brand-color-grey);
+  /* vertical-align: middle; */
 }
 
 .menu-contact-link:hover{
     color: var(--brand-color-blue);
     }
-
 .menu-contact-link:focus {
     color: var(--brand-color-blue);
 }
+
+
 
 
 .header-one-structure{
@@ -319,14 +323,20 @@ margin-top: 16px;
 }
 
 .team-icon{
-    width:20px;
+    /* width:20px;
     height: 20px;
-    margin: 10px;
+    margin: 10px; */
     fill: var(--brand-icons-grey);
+    
     /* margin-top: 16px; */
 }
 
 .team-icon:hover {
+    fill: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
+    border-radius: 50%;
+}
+.team-icon:focus {
     fill: var(--brand-color-white);
     background-color: var(--brand-color-blue);
     border-radius: 50%;
@@ -366,14 +376,6 @@ margin-top: 16px;
     fill: var(--brand-color-blue);
     border: 1px solid var(--brand-color-blue);
 }
-
-/* .clients-icon:hover{
-    fill: var(--brand-color-blue);
-}
-.clients-icon:focus {
-    fill: var(--brand-color-blue);
-} */
-
 
 
 .footer{
@@ -437,13 +439,14 @@ margin-top: 16px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    list-style: none;
 }
 .footer-social{
     margin-left: 70px;
-    margin-top: 22px;
+    margin-top: 12px;
 }
 .footer-socials{
-    padding: 12px;
+    /* padding: 12px; */
     fill: var(--brand-color-white);
     background-color: var(--brand-footer-background-socials);
     border-radius: 50%; 
@@ -451,13 +454,16 @@ margin-top: 16px;
 }
 .footer-socials:hover{
     background-color: var(--brand-color-blue);
-    border-radius: 50%;
+    border-radius: 50%;}
+.footer-socials:focus {
+            background-color: var(--brand-color-blue);
+            border-radius: 50%;
 }
 .footer-p{
     font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         margin-bottom: 20px;
 }
@@ -528,7 +534,3 @@ margin-top: 16px;
     overflow: hidden;
 }
 
-/* .dupa{
-    display: flex;
-        align-items: center;
-} */
